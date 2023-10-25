@@ -1,0 +1,3 @@
+frame_stack: 1
+num_channels: 32
+img_size: 84

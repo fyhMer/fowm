@@ -1,0 +1,13 @@
+modality: 'state'
+action_repeat: 1
+discount: 0.99
+episode_length: 1000
+train_steps: 1000000
+offline_steps: 500000
+max_buffer_size: 200000
+expectile: 0.9
+A_scaling: 10.0
+uncertainty_cost: 3
+dataset_dir: '~/.d4rl' # does not matter
+eval_freq: 10000
+save_freq: 100000

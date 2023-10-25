@@ -1,0 +1,14 @@
+modality: 'all'
+action_repeat: 2
+discount: 0.9
+episode_length: 25
+train_steps: 50000
+offline_steps: 25000
+max_buffer_size: 10000
+expectile: 0.9
+A_scaling: 3.0
+iterations: 6
+uncertainty_cost: 1
+dataset_dir: 'data/xarm_push_medium_replay'
+eval_freq: 1000
+save_freq: 10000
